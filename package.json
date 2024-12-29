@@ -1,0 +1,14 @@
+{
+  "name": "betting_system",
+  "version": "1.0.0",
+  "description": "A simple betting system using Node.js, Redis, and RabbitMQ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.3.4",
+    "amqplib": "^0.10.3"
+  }
+}
